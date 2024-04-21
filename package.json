@@ -1,0 +1,10 @@
+{
+  "name": "@breeze32/typescript-utilities",
+  "version": "1.0.0",
+  "author": "Simon Norman",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.7.0",
+    "typescript": "5.4.5"
+  }
+}
