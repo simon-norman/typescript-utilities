@@ -1,10 +1,9 @@
-import type { Class } from "type-fest";
-
-export const assert = <T>(
+/** throws if value not defined - to narrow types to defined */
+export const assertDefined = <T>(
 	value: T | undefined | null,
-	ErrorCls?: Class<Error>,
+	err: Error,
 ): asserts value is T => {
 	if (value === undefined || value === null) {
-		throw ErrorCls ? new ErrorCls() : Error();
+		throw err;
 	}
 };
