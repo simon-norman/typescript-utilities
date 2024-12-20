@@ -25,5 +25,3 @@ export class Err<T extends object> extends Error {
 		return err;
 	}
 }
-
-Err.create({ code: "code", message: "message", errData: {} });

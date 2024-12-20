@@ -13,11 +13,11 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
-    "ts-node": "^10.9.2",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@fusionauth/typescript-client": "^1.54.0",
     "capture-stack-trace": "^2.1.0",
     "type-fest": "^4.15.0"
   }
