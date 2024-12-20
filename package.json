@@ -1,6 +1,6 @@
 {
   "name": "@breeze32/typescript-utilities",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Simon Norman",
   "license": "MIT",
   "main": "dist/index.js",
